@@ -3,9 +3,9 @@
 
 ---
 
-<p>在spring boot里面，多模块让各模块使用自己的配置可以多创建几个application-redis.yml、application-log.yml等</p>
-<pre class=" language-yml"><code class="prism  language-yml"><span class="token key atrule">application.yml</span><span class="token punctuation">:</span>
-<span class="token key atrule">spring</span><span class="token punctuation">:</span>  
+<p>在spring boot里面，多模块让各模块使用自己的配置可以多创建几个application-redis.yml、application-log.yml…</p>
+<p>application.yml[启动文件]:</p>
+<pre class=" language-yml"><code class="prism  language-yml"><span class="token key atrule">spring</span><span class="token punctuation">:</span>  
   <span class="token key atrule">profiles</span><span class="token punctuation">:</span>  
     <span class="token key atrule">active</span><span class="token punctuation">:</span> dev
 </code></pre>
