@@ -3,6 +3,7 @@
 
 ---
 
+<h4 id="关于spring多模块">关于spring多模块</h4>
 <p>dependencyManagement 里面的依赖不会真实的去下载jar包，如果子模块中的jar没有指定，就会到父类的中寻找对应的version，如果没有报错！</p>
 <p>spring-boot-dependencies与spring-cloud-dependencies就相当于boot与cloud的不同版本，里面集合了很多配套的jar包</p>
 <pre class=" language-java"><code class="prism  language-java"><span class="token operator">&lt;</span>dependencyManagement<span class="token operator">&gt;</span>
@@ -26,5 +27,6 @@
 	<span class="token operator">&lt;</span><span class="token operator">/</span>dependency<span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>dependencies<span class="token operator">&gt;</span>  
 <span class="token operator">&lt;</span><span class="token operator">/</span>dependencyManagement<span class="token operator">&gt;</span>
+
 </code></pre>
 
